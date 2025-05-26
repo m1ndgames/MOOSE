@@ -554,7 +554,7 @@ end
 --- [USER] Adds task success condition for AUFTRAG.Type.CAPTUREZONE for OpsZone or OpsZone set target object.
 --- At least one of the task clients and one capture group need to be inside the zone in order for the capture to be successful.
 -- @param #PLAYERTASK self
--- @param #SET_BASE CaptureSquadGroupNamePrefix The prefix of the group name that needs to capture the zone.
+-- @param #string CaptureSquadGroupNamePrefix The prefix of the group name that needs to capture the zone.
 -- @param #number Coalition The coalition that needs to capture the zone.
 -- @param #boolean CheckClientInZone If true, a CLIENT assigned to this task also needs to be in the zone for the task to be successful.
 -- @return #PLAYERTASK self
