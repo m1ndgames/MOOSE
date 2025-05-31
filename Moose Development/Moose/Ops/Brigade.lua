@@ -265,7 +265,7 @@ function BRIGADE:AddRefuellingZone(RefuellingZone)
   
   supplyzone.zone=RefuellingZone
   supplyzone.mission=nil
-  supplyzone.marker=MARKER:New(supplyzone.zone:GetCoordinate(), "Refuelling Zone"):ToCoalition(self:GetCoalition())
+  --supplyzone.marker=MARKER:New(supplyzone.zone:GetCoordinate(), "Refuelling Zone"):ToCoalition(self:GetCoalition())
 
   table.insert(self.refuellingZones, supplyzone)
 
