@@ -247,7 +247,7 @@ function BRIGADE:AddRearmingZone(RearmingZone)
   
   rearmingzone.zone=RearmingZone
   rearmingzone.mission=nil
-  rearmingzone.marker=MARKER:New(rearmingzone.zone:GetCoordinate(), "Rearming Zone"):ToCoalition(self:GetCoalition())
+  --rearmingzone.marker=MARKER:New(rearmingzone.zone:GetCoordinate(), "Rearming Zone"):ToCoalition(self:GetCoalition())
 
   table.insert(self.rearmingZones, rearmingzone)
 
